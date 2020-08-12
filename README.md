@@ -37,7 +37,7 @@ Projeto desenvolvido com os alunos do curso de programação para internet:
     - [x] cadastro de cursos com upload de imagem
     - [x] exclusão de cursos
     - [x] atualização de cursos com upload de nova imagem
-    - [ ] Implementar validação de formulário via JS
+    - [x] Implementar validação de formulário via JS
     - [ ] Envio de requisições via ajax
     - [ ] Interação com o usuário através de Toasts
     - [x] adicionar plugin de drag and drop na escolha do arquivo

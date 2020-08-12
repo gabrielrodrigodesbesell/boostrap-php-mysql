@@ -18,6 +18,23 @@ $(document).ready(function(){
         errorClass: "is-invalid"
     });
 
+    $('#form-cursos').validate({
+        rules: {
+            titulo: 'required',
+            manchete: 'required',
+            conteudo: 'required'
+        },
+        messages: {
+            titulo: 'Insira o título do curso',
+            manchete: 'Insira a manchete do curso',
+            conteudo: 'Insira o conteúdo do curso'
+        },
+        errorPlacement: function(error, element) {
+            error.insertAfter(element).addClass('text-danger');
+        },
+        errorClass: 'is-invalid'
+    });
+
     $('#btn-enviar').click(function(event){
         event.preventDefault();
         var form = $(this).parents('form');
